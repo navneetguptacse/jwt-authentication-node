@@ -9,3 +9,7 @@ Content-Type: application/json
 {
     "username":"Kyle"
 }
+
+###
+
+DELETE http://localhost:3000/logout
