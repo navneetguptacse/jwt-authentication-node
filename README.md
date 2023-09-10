@@ -3,19 +3,19 @@ Generate a random 64-byte (512-bit) hexadecimal string to be used as an access t
 
 - Import the 'crypto' module, which provides cryptographic functionality.
 
-`const crypto = require('crypto');`
+    `const crypto = require('crypto');`
 
 - Generate a random sequence of bytes (64 bytes in this case) using a secure cryptographic algorithm.
 
-`const randomBytes = crypto.randomBytes(64);`
+    `const randomBytes = crypto.randomBytes(64);`
 
 - Convert the random bytes into a hexadecimal string.
 
-`const ACCESS_TOKEN_SECRET = randomBytes.toString('hex');`
+    `const ACCESS_TOKEN_SECRET = randomBytes.toString('hex');`
 
 - Log the generated access token secret to the console.
 
-console.log('Generated Access Token Secret:', ACCESS_TOKEN_SECRET);
+    `console.log('Generated Access Token Secret:', ACCESS_TOKEN_SECRET);`
 
 - Generated Access Token Secret:
     - Create a `.env` file in the root directory of your project if you don't already have one.
