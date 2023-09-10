@@ -1,7 +1,7 @@
 ### Jwt Authentication :: Node
 Generate a random 64-byte (512-bit) hexadecimal string to be used as an access token secret.
 
-- Import the 'crypto' module, which provides cryptographic functionality.
+- Import the `'crypto'` module, which provides cryptographic functionality.
 
     `const crypto = require('crypto');`
 
